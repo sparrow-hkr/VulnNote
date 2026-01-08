@@ -286,3 +286,8 @@
   - ```
     Set-Cookie: sessionId=abc123; Secure; HttpOnly; SameSite=Strict
     ```
+
+# Cookie Tossing
+
+   - Send multiple cookies with the same name.
+   - Observe if server logic gets confused.
